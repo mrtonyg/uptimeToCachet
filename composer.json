@@ -1,0 +1,20 @@
+{
+    "name": "vdhicts/uptimerobot-api-client",
+    "description": "API client for the API of the UptimeRobot service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dick van der Heiden",
+            "email": "info@vdhicts.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Vdhicts\\UptimeRobot\\Client\\": "src/"
+        }
+    }
+}
