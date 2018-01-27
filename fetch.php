@@ -15,5 +15,5 @@ $client = new Client\Client($configuration);
 // Perform the request, returns a string for further processing
 $response = $client->perform('getMonitors',['limit'=>'50']);
 //, ['monitors' => '15830-32696-83920']);
-print $response;
+//print $response;
 var_dump(json_decode($response, true));
